@@ -7,6 +7,7 @@ A chrome extension that shows zhengma codes of selected characters in the contex
 1. In Chrome go to the extensions page `chrome://extensions`.
 1. Enable Developer Mode.
 1. Drag the `ZhengmaCodeContextMenu-main` folder anywhere on the page to import it (do not delete the folder afterwards).
+1. Make sure that any page where you want to use the addon is reloaded at least once after installation 
 
 ### Usage Instructions
 Right click after selecting some text, a context menu will apear which will contain the zhengma code of the first selected character.
