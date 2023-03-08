@@ -16,7 +16,7 @@ for (var d of get_data()) {
         }
     }
 }
-chrome.runtime.onMessage.addListener((message, _, _) => {
+chrome.runtime.onMessage.addListener((message, _sender, _callback) => {
     if (message.greeting === 'selectionchange') {
         if (message.data.length > 0) {
             let char = message.data.charAt(0)
